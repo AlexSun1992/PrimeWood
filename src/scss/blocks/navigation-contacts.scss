@@ -7,9 +7,9 @@
 @media(min-width: 768px) {
   .navigation-contacts {
     width: 100%;
+    min-height: 27px;
     display: flex;
     font-family: 'PT Sans', sans-serif;
-    justify-content: space-between;
     align-items: center;
     order:-4;
   }
@@ -18,20 +18,27 @@
     font-size: 15px;
     color:#474338;
     font-weight: 600;
+    margin-left: 15px;
   }
 
     .navigation-contacts span{
       font-size: 13px;
       color:#595959;
+      margin-left: 20px;
     }
 
   .navigation-actions {
     display: flex;
+    margin-left: 25px;
   }
 
   .navigation-actions__item a {
     color:#bfbfbf;
     font-size: 13px;
+  }
+
+  .location{
+    margin-left: 25px;
   }
 
   .location__item span{

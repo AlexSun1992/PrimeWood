@@ -9,16 +9,11 @@
 @media(min-width: 768px){
   .header-customer{
     display: flex;
-    //box-shadow: inset 0 0 1px 1px black;
-    width:245/1220 * 100%;
-    //max-width: 245px;
+    width:245/910 * 100%;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: flex-start;
     font-family: 'PT Sans', sans-serif;
-    //box-shadow: inset 0 0 2px 2px red;
-    padding: 20px 0 30px;
-    margin-left: 10px;
   }
 
   .header-customer__button{
@@ -27,8 +22,8 @@
     color:#fff;
     font-size: 13px;
     font-weight: 600;
-    min-height: 30px;
-    border-radius:5px;
+    min-height:inherit;
+    border-radius:3px;
     border:none;
     outline: none;
     margin:0;

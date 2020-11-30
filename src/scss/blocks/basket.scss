@@ -1,0 +1,15 @@
+.basket{
+  display: none;
+}
+
+@media(min-width: 768px){
+  .basket{
+    display: block;
+    width:245/910 *100%;
+    min-height: 61px;
+    background-color: #f3f1ef;
+    line-height: 61px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

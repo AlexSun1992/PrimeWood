@@ -35,13 +35,12 @@
 @media(min-width: 768px){
   .navigation-wrapper{
     //width:635/935 * 100%;
-    width: 655/1220 * 100%;
+    width: 910/1220 * 100%;
     min-height: inherit;
-   padding: 15px 0 15px;
+   //padding: 15px 0 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    //box-shadow: inset 0 0 1px 1px lightseagreen;
   }
 
   .inner{
