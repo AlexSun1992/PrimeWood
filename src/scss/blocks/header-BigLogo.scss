@@ -1,0 +1,32 @@
+.header-BigLogo{
+  //width:280px;
+  min-height: inherit;
+  display: none;
+  margin-right: auto;
+}
+
+
+@media(min-width: 768px){
+  .header-BigLogo {
+    min-width:280px;
+    display: block;
+    //box-shadow:  0 0 10px 10px lightgrey;
+    background-color: #f9f8f3;
+    //position:absolute;
+  }
+
+  .header-BigLogo__ref{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .header-BigLogo__ref img{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+
+}

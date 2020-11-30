@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  padding:0 !important;
+  border:0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+
+
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+@media(max-width: 767px) {
+  .appear {
+    animation-name: appear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes appear {
+    0% {
+      transform: translateX(-1000px);
+    }
+    100% {
+      transform: translateX(0px);
+    }
+  }
+
+  .disappear {
+    animation-name: disappear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes disappear {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-1000px);
+    }
+  }
+
+
+  .goods-show {
+    animation-name: goods-show;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes goods-show {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0%);
+    }
+  }
+
+  .goods-hide {
+    animation-name: goods-hide;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
+
+}
+
+@keyframes goods-hide {
+  0%{
+    transform:translateX(0%);
+  }
+  100%{
+    transform:translateX(-100%);
+  }
+ }
+
+@media(max-width: 767px) {
+  .isActive{
+    display: block;
+  }
+}
+
+@media(min-width:768px){
+  .isActive{
+    display: none;
+  }
+}
+
+@media(min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    display: flex;
+  }
+}

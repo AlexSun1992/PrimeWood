@@ -1,0 +1,22 @@
+@media(max-width: 767px){
+  .navigation {
+    position: absolute;
+    width: 70%;
+    height: 90vh;
+    top: 10vh;
+    left: 0;
+    transform: translateX(-1000px);
+    //box-shadow: 0 0 1px 1px red;
+  }
+}
+
+@media(min-width:768px){
+  .navigation{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    min-height:197px;
+    position:relative;
+    //box-shadow: 0 0 2px 2px orange;
+  }
+}
