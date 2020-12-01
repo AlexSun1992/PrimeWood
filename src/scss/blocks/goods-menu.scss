@@ -1,0 +1,19 @@
+
+@media(min-width:768px){
+
+  .goods-menu{
+  display: flex;
+    justify-content: space-between;
+  }
+
+  .goods-menu__item{
+   text-align: center;
+  }
+
+  .watchAll-wrapper{
+    box-shadow: 0 0 1px 1px orange;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+}
