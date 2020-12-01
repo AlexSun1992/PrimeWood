@@ -4,12 +4,12 @@
 
 @media(min-width: 768px){
   .basket{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width:245/910 *100%;
-    min-height: 61px;
+    height: 61px;
     background-color: #f3f1ef;
-    line-height: 61px;
-    text-align: center;
     text-transform: uppercase;
   }
 }
