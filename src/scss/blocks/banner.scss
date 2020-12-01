@@ -1,0 +1,23 @@
+.banner{
+  display: none;
+}
+
+@media(min-width:768px){
+
+  .banner{
+    display: block;
+    min-height: 467px;
+    margin-top: 30px;
+    width: 280px;
+    box-shadow: 0 0 1px 1px black;
+    padding: 10px;
+
+    img{
+      box-shadow: 0 0 1px 1px black;
+    }
+
+  }
+
+
+
+}

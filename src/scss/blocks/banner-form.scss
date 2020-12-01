@@ -1,0 +1,33 @@
+@media(min-width: 768px){
+  .banner-form{
+
+    font-family: 'PT Sans', sans-serif;
+
+    label{
+      display: block;
+      width: 100%;
+      box-shadow: 0 0 1px 1px black;
+      min-height: 41px;
+      margin-top: 10px;
+    }
+
+    input{
+      border:none;
+      box-shadow: 0 0 1px 1px black;
+      width: inherit;
+      min-height: inherit;
+      background-color:#f9f8f3;
+      padding-left: 40px;
+    }
+
+    input[type="submit"]{
+      background-color:#FF9E24;
+      color:rgb(255,255,255);
+      text-transform: uppercase;
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0;
+    }
+
+  }
+}

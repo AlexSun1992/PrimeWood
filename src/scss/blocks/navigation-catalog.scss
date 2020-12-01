@@ -40,21 +40,19 @@
     color:#fff;
     border-bottom:1px dashed #fff;
   }
-
 }
 
 @media(min-width: 768px){
   .inner{
     display: block;
     position: absolute;
-    //top:193px;
     left:-10px;
   }
 
   .navigation-catalog{
     width: 280px;
     font-family: 'PT Sans', sans-serif;
-    //box-shadow: 0 0 2px 2px lightgrey;
+    box-shadow: 0 0 1px 1px black;
   }
 
   .navigation-catalog__item{
@@ -93,5 +91,10 @@
     border-bottom:1px dashed #fff;
   }
 
+  .lock{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
 
 }

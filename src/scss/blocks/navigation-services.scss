@@ -53,10 +53,12 @@
 }
 
 @media(min-width: 768px){
+
   .services-wrapper{
     width: 100%;
     min-height: 28px;
   }
+
   .navigation-services{
      max-width: 70%;
     min-height: 28px;
@@ -67,7 +69,6 @@
     margin-top:-10px;
     margin-left: 0;
     order:1;
-    box-shadow: 0 0 1px 1px orange;
   }
 
   .navigation-services__item{
@@ -75,7 +76,6 @@
     max-width: 30%;
     padding: 0;
     line-height: 28px;
-    box-shadow: 0 0 1px 1px red;
   }
 
   .navigation-services__item a{
@@ -85,7 +85,6 @@
     font-family: 'PT Sans', sans-serif;
     font-size: 13px;
     font-weight: 600;
-    box-shadow: 0 0 1px 1px black;
     text-transform: uppercase;
   }
 
