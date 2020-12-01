@@ -9,5 +9,21 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 0 1px 1px orange;
+    margin-bottom:10px;
+
+    h2{
+      font-size: 30px;
+      color:#f59115;
+      font-weight: 400;
+    }
+
+    div{
+      display: flex;
+      font-size: 18px;
+      font-weight: 600;
+      color:#b8ad87;
+    }
+
   }
+
 }

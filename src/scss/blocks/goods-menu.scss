@@ -2,18 +2,39 @@
 @media(min-width:768px){
 
   .goods-menu{
-  display: flex;
-    justify-content: space-between;
-  }
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-bottom:7px;
+    }
 
-  .goods-menu__item{
-   text-align: center;
-  }
+    .goods-menu__item{
+      text-align: center;
+      max-width: 210px;
+
+      img{
+        margin-bottom: 5px;
+      }
+
+    }
+
+    .goods-menu__item-text{
+      color:#595959;
+      font-size: 17px;
+      font-weight:600;
+      margin-bottom: 10px;
+    }
 
   .watchAll-wrapper{
     box-shadow: 0 0 1px 1px orange;
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 12px;
+  }
+
+  .watchAll{
+    font-size: 15px;
+    color:#f59115;
   }
 
 }
