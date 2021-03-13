@@ -1,0 +1,25 @@
+.introduction{
+  padding: 10px;
+  font-family:"PT Sans",'Arial',sans-serif;
+}
+
+.introduction__title{
+  font-size: 20px;
+  color:#595959;
+  font-weight: 700;
+}
+
+.introduction__menuItem,
+.introduction__catalog,
+.introduction__text{
+  font-size: 16px;
+  line-height: 24px;
+  color:#8F8C89;
+  margin-top: 12px;
+  font-weight: 400;
+}
+
+
+.introduction__menuItem{
+  list-style:square outside;
+}

@@ -15,8 +15,6 @@
   overflow: hidden;
 }
 
-
-
 a{
   text-decoration: none;
 }
@@ -105,9 +103,28 @@ img{
   }
 }
 
+.container{
+  width: 100%;
+  background-color: #f9f8f3;
+  display: flex;
+}
+
+.rights__textBr{
+  display: none;
+}
+
 @media(min-width: 768px) {
   .wrapper {
     width: 100%;
     display: flex;
   }
+
+  .rights__container{
+    text-align: left;
+  }
+
+  .rights__textBr{
+    display: block;
+  }
+
 }

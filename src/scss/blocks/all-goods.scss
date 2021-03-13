@@ -1,0 +1,42 @@
+.all-goods{
+  min-height: 27px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+
+  span{
+    display: block;
+    min-height: 27px;
+    text-align: center;
+    line-height: 27px;
+    width: 204px;
+    color:rgb(255,255,255);
+    background-color: #b8ad87;
+    border-radius:5px;
+  }
+
+}
+
+.all-goods__container{
+  display: flex;
+  justify-content: space-around;
+  width: 18%;
+  margin-right: 10px;
+
+  button{
+    width: 27px;
+    height: 27px;
+    border-radius: 3px;
+    background-color: #b8ad87;
+    border-color:transparent;
+    outline: none;
+  }
+
+}
+
+@media(min-width: 768px){
+  .all-goods{
+    display: none;
+  }
+}

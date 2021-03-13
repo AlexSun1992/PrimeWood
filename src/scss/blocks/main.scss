@@ -1,17 +1,15 @@
+
 @media(max-width: 767px) {
   .main {
     min-height: 400px;
-    //box-shadow: 0 0 2px 2px black;
   }
 }
 
 @media(min-width:768px) {
   .main {
     width: 1220px;
-    height: 565px;
-    //box-shadow: 0 0 2px 2px black;
+    min-height: 565px;
     margin: auto;
     display: flex;
-    //background-color: lightblue;
   }
 }

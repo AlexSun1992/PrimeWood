@@ -6,7 +6,7 @@
   }
 
   .navigation-menu__item {
-    padding-left: 3%;
+    border-bottom: 1px solid #b8ad87;
   }
 
   .navigation-menu__item a {
@@ -14,7 +14,14 @@
     line-height: 30px;
     cursor: pointer;
     display: block;
-    margin-left: 5px;
+    padding-left: 1%;
+    background-color: rgb(255,255,255);
+  }
+
+  .navigation-menu__item a:hover{
+    transition-property: background-color;
+    transition-duration: 1s;
+    background-color: #f3f1ef;
   }
 
   .navigation-menu__item-trigger {
@@ -23,9 +30,9 @@
     position: relative;
   }
 
-  .navigation-menu__item-trigger:hover{
-    background-color: lightgrey;
-  }
+  //.navigation-menu__item-trigger:hover{
+  //  background-color: lightgrey;
+  //}
 
 }
 

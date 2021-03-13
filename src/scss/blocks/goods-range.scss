@@ -1,8 +1,11 @@
+.goods-range{
+  padding-left: 25px;
+  font-family: 'PT Sans', sans-serif;
+}
 
 
 @media(min-width: 768px){
   .goods-range{
-    box-shadow: 0 0 1px 1px red;
     padding: 25px 35px;
     font-family: 'PT Sans', sans-serif;
   }

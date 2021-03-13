@@ -1,0 +1,44 @@
+.rights{
+  background-color: #f9f8f3;
+  font-family: "PT Sans", 'Arial', sans-serif;
+  color:#9f9d9a;
+  font-size: 13px;
+  text-align: center;
+  padding:10px 10px 20px 0;
+  display: flex;
+}
+
+
+.rights__text{
+  line-height: 24px;
+  color:#9F9D9A;
+}
+
+
+.rights__block{
+  text-align: left;
+  display: none;
+}
+
+
+@media(min-width: 768px){
+  .rights{
+    width: 35%;
+    order:-2;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+
+  .rights__block{
+    text-align: left;
+    display: block;
+  }
+
+  .rights__serviceItem a{
+    font-size: 13px;
+    color:#595959;
+    line-height:20px;
+    text-decoration:underline;
+  }
+}

@@ -1,0 +1,99 @@
+.touch{
+  background-color: #f9f8f3;
+  font-family: "PT Sans", 'Arial', sans-serif;
+  text-align: center;
+  color: #595959;
+  border-bottom: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.touch__block{
+  display: none;
+}
+
+.touch__title{
+  font-size: 18px;
+  margin: -5px 0px 5px;
+}
+
+.touch__info--number{
+  font-size: 15px;
+  color: #FF9E23;
+  text-transform: uppercase;
+}
+
+.touch-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 24px;
+  font-size: 13px;
+
+}
+
+.touch-wrapper span{
+  font-size: 13px;
+  line-height: 24px;
+  display: block;
+  margin-top: 10px;
+}
+
+.touch__menu{
+  display: flex;
+  width: 40%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+
+.touch__menuItem{
+  width: 20px;
+  height: 20px;
+  border:1px solid #595959;
+}
+
+.touch__br{
+  display: none;
+}
+
+.touch-container{
+  text-align: center;
+}
+
+@media(min-width: 768px) {
+
+  .touch{
+    order:-1;
+    width: 35%;
+    padding: 0;
+    justify-content: space-around;
+  }
+
+  .touch__menu{
+    width: 60%;
+  }
+
+  .touch__block{
+    display: block;
+    text-align: left;
+  }
+
+  .touch__br{
+    display: block;
+  }
+
+  .touch__rangeItem a{
+    font-size: 13px;
+    line-height: 17px;
+    color:#595959;
+    text-decoration: underline;
+  }
+
+  .touch-wrapper span{
+    margin-top: 0;
+  }
+
+}

@@ -1,14 +1,31 @@
-@media(min-width:768px){
+.goods-item {
+  font-family: 'PT Sans', sans-serif;
+}
 
+.goods-item__title{
+  h2{
+    font-size: 24px;
+    color:#595959;
+    font-weight: 400;
+  }
+
+  div{
+  display: none;
+  }
+}
+
+
+
+
+@media(min-width:768px){
   .goods-item{
-  width: 100%;
+    width: 100%;
   }
 
   .goods-item__title{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 0 1px 1px orange;
     margin-bottom:10px;
 
     h2{
@@ -22,6 +39,7 @@
       font-size: 18px;
       font-weight: 600;
       color:#b8ad87;
+
     }
 
   }

@@ -7,7 +7,7 @@
     //overflow-y: hidden;
     padding-top: 5px;
     background-color: rgb(255, 255, 255);
-    box-shadow: inset 0 0 2px 1px black;
+    z-index: 100;
   }
 
   .inner {
@@ -17,7 +17,7 @@
     top: 0;
     transform: translateX(-100%);
     background-color: #f9f8f3;
-    //box-shadow: 0 0 1px 1px black;
+    z-index: 100;
   }
 
 
